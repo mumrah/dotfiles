@@ -1,0 +1,27 @@
+startup_message off
+vbell off
+attrcolor b ".I" 
+
+# Let me scroll back
+#termcapinfo xterm* ti@:te@
+termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+
+defscrollback 5000
+
+# # erase background with current bg color 
+defbce "on"
+
+#terminfo rxvt-unicode ti@:te@
+#term screen-256color
+term screen-256color-bce
+#defutf8 on
+
+# Status line stuff
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %m-%d %{W}%c %{g}]'
+
+# Key bindings
+#bindkey "^[Od" prev  # change window with ctrl-left
+#bindkey "^[Oc" next  # change window with ctrl-right
+bindkey ^[[1;5C next
+bindkey ^[[1;5D prev

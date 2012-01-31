@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/darthur/Code/recommend/build'
+let g:netrw_dirhist_2='/home/darthur/.subversion/auth/svn.username'
+let g:netrw_dirhist_3='/tmp/kafka'
+let g:netrw_dirhist_4='/home/darthur/Code/ffs/ffs-server/src/main/java/com/digitalsmiths/ffs'

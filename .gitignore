@@ -1,0 +1,9 @@
+*.pyc
+*.swp
+*.dvi
+*.log
+*.aux
+.project
+.settings
+.classpath
+.class

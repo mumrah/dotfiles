@@ -1,0 +1,9 @@
+[core]
+	excludesfile = ~/.gitignore
+[user]
+	name = David Arthur
+
+[alias]
+	tree = log --color --graph --oneline --abbrev-commit --all
+
+
